@@ -1,16 +1,29 @@
 <% provide(:title, 'Home') %>
-<div class="center hero-unit">
-  <h1>Welcome to TimeStamp!</h1>
+<head>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+</head>
+<style>
+body {
+	background-color: #000;
+	h2{
+		color: lightblue;
+	}
+}
+</style>
+<img class="input"  src="/MainInputPageV1.4.jpg" alt="rss feed" />
+<img class="timelist"  src="/CalendarsTimeTotalListV1.2.jpg" alt="rss feed" />
 
-  <h2>
-    TimeStamp creates an objective, meaningful, and enduring record of exactly where you spend your time. TimeStamp’s life-capturing dataset will help you identify wasted time and methodically squeeze it out of your day. We empower our users to take control of their time. 
+
+<h2>
+  	<p>
+    TimeStamp uses type-free data entry to create an enduring record of exactly where you spend your time. <br><br><p>TimeStamp’s life-capturing dataset will help you identify wasted time and methodically squeeze it out of your day. We empower our users to take control of their time. </p><br>We're launching soon. Leave us your email address!<input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL">
+  </p>
+
   </h2>
+  <div>
 
-  <%= link_to "Email Address", '#', class: "btn btn-large btn-primary" %>
-
-  <h2>
-  	<p></p>
-    Enter your email address and we'll let you know when we're ready to launch.
-  </h2>
 </div>
+
+
 

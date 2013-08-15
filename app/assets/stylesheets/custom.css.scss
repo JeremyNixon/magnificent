@@ -22,24 +22,6 @@ textarea {
   resize: vertical;
 }
 
-.input {
-  width: 235px;
-  float: right;
-  margin: 0px 0px 0px 10px;
-}
-
-.timelist {
-  width: 235px;
-  float: left;
-  margin: 10px 0px 0px 0px;
-}
-
-.logo {
-  width: 75px;
-  border-radius:5px;
-  float: center;
-
-}
 
 .center {
   text-align: center;
@@ -50,6 +32,26 @@ textarea {
 
 .hero-unit {
   background-color:#B22222;
+}
+
+ul.info {
+  margin: 120px 120px 0px 0px;
+  list-style: none;
+  float: left;
+
+#poem {
+  color: #000;
+}
+
+.input {
+  float:left;
+}
+
+.timelist {
+  float:right;
+}
+
+  
 }
 
 /* typography */
@@ -101,9 +103,8 @@ p {
 /* footer */
 
 footer {
-  margin-top: 45px;
+  margin-top: 200px;
   padding-top: 5px;
-  border-top: 1px solid #999999;
   color: $grayLight;
   a {
     color: $gray;

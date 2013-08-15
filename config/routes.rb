@@ -1,4 +1,7 @@
 Magnificent::Application.routes.draw do
+  get "contact_form/new"
+
+
  root to: 'static_pages#home'
 
   match '/help',    to: 'static_pages#help'

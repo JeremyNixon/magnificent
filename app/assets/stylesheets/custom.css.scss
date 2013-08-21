@@ -1,5 +1,17 @@
 @import "bootstrap";
 
+/* Colors! 
+light blue: #84baff;
+dark blue: #3c3399;
+in-between blue: #6055cc;
+pale beige: #ffe4c4;
+brownish: #cc8455;
+
+
+
+*/
+
+
 /* mixins, variables, etc. */
 
 $grayMediumLight: #000;
@@ -11,7 +23,8 @@ html {
 }
 
 body {
-    padding-top: 60px;
+    padding-top: 40px;
+    font-family: arial;
 }
 
 section {
@@ -20,6 +33,14 @@ section {
 
 textarea {
   resize: vertical;
+}
+
+div {
+
+}
+
+legend {
+  margin-bottom: 10px;
 }
 
 
@@ -89,7 +110,6 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: white;
-  text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
@@ -124,3 +144,109 @@ footer {
     }
   }
 }
+
+/* Sign Up Page */
+.sign_up_content { 
+  text-align: center;
+}
+
+#rightcolumn { 
+  text-align: center;
+}
+
+#sign_up_container {
+  background-color: #fff;
+  text-align: left;
+  width: 60%;
+  padding: 5px;
+  background-color: lightgrey;
+  float: left;
+  margin-bottom: 50px;
+}
+#quotehavel {
+    font-family: georgia;
+    font-style: oblique;
+    text-align: center;
+    margin-bottom: 15px;
+}
+ #sign_up_heading {
+  text-align: center;
+
+ }
+
+ #sign_up_information {
+  float: right;
+  width: 35%;
+  margin-bottom: 270px;
+  margin-top: 150px;
+  font-style: oblique;
+ }
+
+/* About Us Page */
+
+#about_container {
+  background-color: lightgrey;
+}
+
+#who_are_we {
+  font-size: 30px;
+  font-style: oblique;
+
+}
+
+#about_heading {
+  padding: 10px;
+  text-align: center;
+}
+
+#speech {
+  padding: 10px;
+  margin-top: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+#jeremy_image {
+  height: 180px;
+  width: 180px;
+  float: left;
+}
+#awais_image {
+  height: 180px;
+  width: 180px;
+  float: right;
+}
+
+.input {
+  height: 180px;
+  width: 180px;
+}
+
+.profile {
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#about_jeremy {
+  float: right;
+  width: 700px;
+}
+#about_awais {
+  float: left;
+  width: 700px;
+}
+
+#contact {
+  height: 750px;
+  padding: 5px;
+  text-align: center;
+}
+#contact_heading {
+
+}
+
+#contact_info {
+}
+

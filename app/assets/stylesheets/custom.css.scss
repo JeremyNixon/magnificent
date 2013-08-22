@@ -36,7 +36,6 @@ textarea {
 }
 
 div {
-  border: 1pt solid red;
 }
 
 legend {
@@ -258,9 +257,11 @@ footer {
 
 #product_headline {
   text-align: center;
-  margin-top: 20px;
+  padding: 10px;
+  margin-top: 0px;
   margin-bottom: 20px;
   font-style: oblique;
+  border-bottom: solid 1pt black;
 }
 
 #picture_stream {
@@ -292,6 +293,15 @@ footer {
   margin-bottom: 20px;
   width: 60%;
   margin: auto;
+  border: solid 1pt black;
+}
+
+.product {
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-top: solid 1pt black;
 }
 
 #product1_text {

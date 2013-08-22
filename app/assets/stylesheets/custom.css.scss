@@ -36,7 +36,7 @@ textarea {
 }
 
 div {
-
+  border: 1pt solid red;
 }
 
 legend {
@@ -126,6 +126,7 @@ footer {
   margin-top: 200px;
   padding-top: 5px;
   color: $grayLight;
+  clear: both;
   a {
     color: $gray;
     &:hover {
@@ -249,3 +250,76 @@ footer {
 #contact_info {
 }
 
+/* Product Page */
+
+#product_container {
+  background-color: lightgrey;
+}
+
+#product_headline {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: oblique;
+}
+
+#picture_stream {
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#image1 {
+  float: left;
+  width: 150px;
+}
+
+#image2 {
+  width: 150px;
+  float: left;
+  margin-left: 220px;
+}
+
+#image3 {
+  float: right;
+  width: 150px;
+
+}
+
+#product_video {
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+#product1_text {
+
+  float: right;
+  width: 700px;
+}
+
+#product1_image {
+    float: left;
+}
+
+#product2_text {
+
+  float: left;
+  width: 700px;
+}
+
+#product2_image {
+    float: right;
+}
+
+#product3_text {
+
+  float: right;
+  width: 700px;
+}
+
+#product3_image {
+    float: left;
+}

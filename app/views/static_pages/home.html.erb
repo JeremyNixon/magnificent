@@ -1,78 +1,172 @@
 <% provide(:title, 'Home') %>
 
+<link href='http://fonts.googleapis.com/css?family=Ubuntu|Open+Sans' rel='stylesheet' type='text/css'>
 
-<!--
-<head>
-	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-</head>
-<style>
+<div id="home_container">
 
-body {
-	background-color: #0000cd;
-	color: #0000cd;
-	h2{
-		color: lightblue;
-	}
-}
-</style>
+	<div id="title_container">
+
+		<div id="title_picture">
+			<img id="main_image" src="/CalendarsTimeTotalListV1.2.jpg" alt="rss feed" />
+
+		</div>
+
+		<div id="title">
+			<h1 id="tagline">A Bird's Eye View of Life<br><br></h1>
+			<div id="button">
+				<p class="button1"><a href="http://localhost:3000#sign">Sign Up!</a></p>
+			</div>
+		</div>
+		
+		
+
+	</div>
+
+	<a name="app"></a>
+
+	<div class="five_columns">
+		<div class="column">
+			<p> No more typing! </p> <p class="column_text">Tap, slide and pinch events into your claendar to create them and tell TimeStamp how long they took!</p>
+		</div>
+
+		<div class="column">
+			<p> Create a <em>truthful</em> record! </p> <p class="column_text">Track your time retroactively, ensuring that only events that <em>actually happened</em> are recorded!</p>
+		</div>
+
+		<div class="column">
+			<p> No start and stop timers! </p> <p class="column_text">Don't waste time turning timers on and off!</p>
+		</div>
+
+		<div class="column">
+			<p> Categorize your life. </p> <p class="column_text">Your life breaks down into a few important categories. Break those down in to subcategories to isolate what's important to you! </p>
+		</div>
+
+		<div class="column">
+			<p>Aggregate your time use! </p> <p class="column_text">Discover patterns through your life, and see your time use at a weekly and monthly scale!</p>
+		</div>
+
+	</div>
+
+	<div id="home_product">
+		<h3 id="product_headline">Made for you. Made for me.</h3>
+		<div id="product_video">
+		<strong>Insert video here</strong>
+		</div>
+
+		<div class="product" >
+			<div id="product1_image">
+				<img class="input"  src="/MainInputPageV1.4.jpg" alt="rss feed" />
+			</div>
+			<div id="product1_text">
+				The act of text entry is annoying. Use type-free data entry instead."test, things that you talk about. If you weren't afraid, what would you do?"
+			</div>
+			
+		</div>
+
+		<div class="product">
+		<div id="product2_text" >
+			The act of text entry is annoying. Use type-free data entry instead."test, things that you talk about. If you weren't afraid, what would you do?"
+		</div>
+		<div id="product2_image">
+			<img class="input"  src="/MainInputPageV1.4.jpg" alt="rss feed" />
+		</div>
+		
+	</div>
+
+	<div class="product" >
+		<div id="product3_image">
+			<img class="input"  src="/MainInputPageV1.4.jpg" alt="rss feed" />
+		</div>
+		<div id="product3_text">
+			The act of text entry is annoying. Use type-free data entry instead."test, things that you talk about. If you weren't afraid, what would you do?"
+		</div>
+	</div>
+
+	</div>
+	<a name="sign"></a>
+
+	<div id="home_sign_up_container">
+
+		<div id="sign_up_heading">
+			<h3>Let's stay in touch.</h3>
+		</div>
+
+		<div id="rightcolumn">
+			<div id="quotehavel">
+			Vision is not enough;<br>it must be combined with venture.<br>
+			It is not enough to stare up the steps;<br> we must step up the stairs.<br>-Vaclav Havel
+			</div>
+		</div>	
+
+	<div class="sign_up_content">
+		<form action="#" method="POST" name="my_form">
+			<fieldset>
+				<label for="name">Name:</label>
+				<input  type="text" name="name">
+				<label for="email">Email:</label>
+				<input type="email" name="email">	
+			</fieldset>
+		</div>
+
+			<div class="sign_up_content">
+				<fieldset>
+					<legend>Open Ended Question</legend>
+						<label for="essay">We want to know about you.</label>
+				<textarea style="height: 50px;" name="essay" rows="10" cols="10"></textarea><br>
+				
+				</fieldset>
+			</div>
+
+			<div class="sign_up_content">
+				<fieldset>
+			<input type="submit" value="Done!"><br>
+						</fieldset>
+			</div>
+		</form>
+	</div>
 
 
 
-<p>
-	<h2 id="poem">
-		"The unexamined life is not worth living."<br><br><br>
-	</h2>
-</p>
+
+	<div id="home_about_us_container">
+		<div id="contact">
+			<p id="contact_heading"><h3> Contact Us:</h3>We'd love to hear from you! Feel free to contact us with questions, <br>ways we can help you, or comments on our product.
+			</p>
+			<strong id="contact_info">TimeStamp: timestamptracking@gmail.com<br><br>Jeremy Nixon: jnixon2@gmail.com<br><br>Awais Hussain: ahussain@gmail.com</strong>
+
+		</div>
+
+		<a name="us"></a> 
+		
+		<div id="about_heading">
+		<strong id="who_are_we">Who are we?</strong>
+	</div>
+
+		<div id="speech">
+			<object width="560" height="315"><param name="movie" value="//www.youtube.com/v/jdG75RY5S84?hl=en_US&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/jdG75RY5S84?hl=en_US&amp;version=3" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+		</div>
+		<div class="profile">
+			<div id="jeremy_image">
+				<img class="input"  src="/MainInputPageV1.4.jpg" alt="rss feed" />	
+
+			</div>
+			<div id="about_jeremy">
+				<p> This is where I put the text about Awais and I. TimeStamp’s life-capturing dataset will help you identify wasted time and methodically squeeze it out of your day. We empower our users to take control of their time. </p>
+			</div>
+		</div>
+
+		<div class="profile">
+			<div id="about_awais">
+				<p> This is where I put the text about awais and I. TimeStamp’s life-capturing dataset will help you identify wasted time and methodically squeeze it out of your day. We empower our users to take control of their time. </p>
+			</div>
+			<div id="awais_image">
+				<img class="input"  src="/MainInputPageV1.4.jpg" alt="rss feed" />
+			</div>
+			
+		</div>
+	</div>
 
 
-<p>
-	<h2>
-
-a time for love, a time for hate,<br>
-a time to run, a time to wait,<br>
-a time to stay, a time to flee,<br>
-a time for you, a time for me. <br><br><br>
-	</h2>
-</p>
-
-<img class="grid_3" class="input"  src="/MainInputPageV1.4.jpg" alt="rss feed" />
-
-
-
-<h2>
-
-     <p>
-
-    TimeStamp uses type-free data entry to create an enduring record of exactly where you spend your time. <br><br><p>TimeStamp’s life-capturing dataset will help you identify wasted time and methodically squeeze it out of your day. We empower our users to take control of their time. </p><br>We're launching soon. Leave us your email address!<br><input type="email" placeholder="Email" name="EMAIL" class="required email" id="mce-EMAIL">
-
-
-
-
- </p>
-
- </h2>
-
- <div>
-
+	</div>
 </div>
-
-
-
-
-
-
-  <h2>
-  <p>
-  </p>
-  </h2>
-
-  <div>
-
 </div>
-
-
-</body>
--->
-
-<h3> Page Construction in Progress </h3>

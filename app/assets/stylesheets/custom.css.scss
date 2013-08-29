@@ -14,8 +14,7 @@ brownish: #cc8455;
 
 /* mixins, variables, etc. */
 
-$grayMediumLight: #000;
-
+  
 /* universal */
 
 html {
@@ -24,7 +23,8 @@ html {
 
 body {
     padding-top: 40px;
-    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
 }
 
 section {
@@ -36,12 +36,12 @@ textarea {
 }
 
 div {
+  border: 0px solid red;
 }
 
 legend {
   margin-bottom: 10px;
 }
-
 
 .center {
   text-align: center;
@@ -107,7 +107,7 @@ p {
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  font-size: 1.4em;
   color: white;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -162,6 +162,8 @@ footer {
   background-color: lightgrey;
   float: left;
   margin-bottom: 50px;
+  border-bottom-left-radius: 15px; 
+  border-bottom-right-radius: 15px;
 }
 #quotehavel {
     font-family: georgia;
@@ -186,11 +188,14 @@ footer {
 
 #about_container {
   background-color: lightgrey;
+  border-bottom-left-radius: 15px; 
+  border-bottom-right-radius: 15px;
 }
 
 #who_are_we {
   font-size: 30px;
   font-style: oblique;
+  margin-top: 20px;
 
 }
 
@@ -202,8 +207,9 @@ footer {
 #speech {
   padding: 10px;
   margin-top: 20px;
-  width: 60%;
+  width: 80%;
   margin: auto;
+  overflow: auto;
 }
 
 #jeremy_image {
@@ -223,19 +229,20 @@ footer {
 }
 
 .profile {
-  height: 200px;
+  height: 20%;
   padding: 10px;
   margin-bottom: 20px;
   margin-top: 10px;
+  overflow: auto;
 }
 
 #about_jeremy {
   float: right;
-  width: 700px;
+  width: 70%;
 }
 #about_awais {
   float: left;
-  width: 700px;
+  width: 70%;
 }
 
 #contact {
@@ -253,6 +260,9 @@ footer {
 
 #product_container {
   background-color: lightgrey;
+  padding: 10px;
+  border-bottom-left-radius: 15px; 
+  border-bottom-right-radius: 15px;
 }
 
 #product_headline {
@@ -294,6 +304,7 @@ footer {
   width: 60%;
   margin: auto;
   border: solid 1pt black;
+  height: 250px;
 }
 
 .product {
@@ -302,12 +313,13 @@ footer {
   margin-bottom: 20px;
   margin-top: 10px;
   border-top: solid 1pt black;
+  overflow: auto;
 }
 
 #product1_text {
 
   float: right;
-  width: 700px;
+  width: 70%;
 }
 
 #product1_image {
@@ -317,7 +329,7 @@ footer {
 #product2_text {
 
   float: left;
-  width: 700px;
+  width: 70%;
 }
 
 #product2_image {
@@ -327,9 +339,129 @@ footer {
 #product3_text {
 
   float: right;
-  width: 700px;
+  width: 70%;
 }
 
 #product3_image {
     float: left;
+}
+
+/* Home Page */
+
+#home_container {
+  background-color: lightgrey;
+  padding: 10px;
+  border-bottom-left-radius: 15px; 
+  border-bottom-right-radius: 15px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+#tagline {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.button1{
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+border-radius:50px;
+
+-moz-box-shadow:0 1px 0 rgba(0,0,0,0.3);
+-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.3);
+box-shadow:0 1px 0 rgba(0,0,0,0.3);
+
+background: -moz-linear-gradient(19% 75% 90deg, #E0E0E0, #FAFAFA);
+
+background: -webkit-gradient(linear, left top, left bottom, from(#FAFAFA), to(#E0E0E0));
+
+color:#4A4A4A;
+font-family:arial,helvetica,sans-serif;
+font-size:17px;
+font-weight:bold;
+padding:10px 15px;
+text-shadow:1px 1px 0 rgba(255, 255, 255, 0.7);
+text-align: center;
+}
+
+#sign_tag{
+}
+
+#title_container {
+  padding: 10px;
+  height: 400px;
+}
+
+#title_picture {
+float: left;
+padding: 10px;
+height: 380px;
+}
+
+#title {
+  float: right;
+  padding: 10px;
+  height: 380px;
+  width: 400px;
+}
+
+#button {
+  padding: 10px;
+  overflow: auto;
+}
+
+#main_image {
+  height: 380px;
+}
+
+#tagline {
+  float: left;
+}
+
+#test{
+  height: 50px;
+  width: 100px;
+  float: right;
+}
+
+.five_columns {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+
+}
+
+.column {
+  font-family: helvetica;
+  float: left;
+  width: 19%;
+  height: 100%;
+  text-align: center;
+}
+
+.column_text {
+  font-size: .8em;
+  line-height: 1.2em;
+}
+
+#home_product {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+
+#home_sign_up_container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
+
+}
+
+#home_about_us_container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: auto;
 }
